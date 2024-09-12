@@ -13,7 +13,11 @@ public class Docente {
 
     public Docente(String runDocente, String nomDocente, String fechaIngreso, int nroDocente, Sede sede) {
         this.runDocente = runDocente;
-        this.nomDocente = nomDocente;
+        if (nomDocente == null || nomDocente.isEmpty()) {
+            System.out.println("Error, debe ingresar un nombre de alumno");
+        } else {
+            this.nomDocente = nomDocente;
+        }
         this.fechaIngreso = fechaIngreso;
         this.nroDocente = nroDocente;
         this.sede = sede;
