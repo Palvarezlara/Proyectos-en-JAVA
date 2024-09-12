@@ -1,0 +1,13 @@
+# EvaluadorAcademico
+
+Este proyecto es un sistema que permite a los estudiantes ingresar sus calificaciones, obtener la nota final y saber si esta eximido 
+de dar el examen, luego de ingresar la nota del examén indica si es aprobado o reprobado.
+
+## Características:
+- Ingreso de notas.
+- Cálculo de nota final basado en ponderaciones.
+- Validación de entradas para evitar errores.
+
+## Cómo ejecutar:
+1. Compila el archivo `EvaluadorAcademico.java` usando tu IDE o la línea de comandos.
+2. Ejecuta la clase principal (test) para interactuar con el programa.
