@@ -13,9 +13,17 @@ public class Estudiante {
 
     public Estudiante(String runAlumno, String nomAlumno, String fechaNac, int edadAlumno) {
         this.runAlumno = runAlumno;
-        this.nomAlumno = nomAlumno;
+        if (nomAlumno == null || nomAlumno.isEmpty()) {
+            System.out.println("Error, debe ingresar un nombre de alumno");
+        } else {
+            this.nomAlumno = nomAlumno;
+        }
         this.fechaNac = fechaNac;
-        this.edadAlumno = edadAlumno;
+        if (edadAlumno>0 && edadAlumno<101) {
+            this.edadAlumno = edadAlumno;
+        } else {
+            System.out.println("Debe ingresar una edad válida.");
+        }
     }
 
     public String getRunAlumno() {
