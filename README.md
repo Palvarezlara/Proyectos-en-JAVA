@@ -1,4 +1,3 @@
-# Proyectos-en-JAVA
 # Repositorio de Proyectos Java
 
 Este repositorio contiene varios proyectos y ejercicios desarrollados en Java, que abarcan diferentes conceptos de programación orientada a objetos, estructuras de datos, y más.
