@@ -3,10 +3,28 @@
 Este proyecto es un sistema que permite a los estudiantes ingresar sus calificaciones, obtener la nota final y saber si esta eximido 
 de dar el examen, luego de ingresar la nota del examén indica si es aprobado o reprobado.
 
+##Clases:
+-Estudiante.
+-Sede.
+-Docente.
+-Asignatura.
+
+##Objetos:
+-Creados al inicio en la clase principal.
+
+##Metodos solicitados:
+-Para calcular nota de presentación al exámen, considerando ponderaciones (30%, 30%, 40%).
+-Indicar si el estudiante esta eximido de dar el exámen si su nota es sobre 5.0.
+-Con la nota del exámen calcular nota final considerando ponderaciones (40% y 60%).
+-Indicar si el estudiante Reprobo o Aprobo la asignatura. 
+-Si su nota esta entre 3.5 y 3.9 indicar como Cursado el ramo, y puede tomar la asignatura que sigue. 
+
 ## Características:
 - Ingreso de notas.
 - Cálculo de nota final basado en ponderaciones.
 - Validación de entradas para evitar errores.
+- Validación  en los nombres para que no esten vacios o nulos (en contructores).
+- Validación de edad, mayor a 0 y menor a 100 años.
 
 ## Cómo ejecutar:
 1. Compila el archivo `EvaluadorAcademico.java` usando tu IDE o la línea de comandos.
