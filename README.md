@@ -6,6 +6,8 @@ Este repositorio contiene varios proyectos y ejercicios desarrollados en Java, q
   
 - **Proyecto1-EvaluadorAcademico**: 
   Un sistema de gestión escolar para manejar estudiantes, asignaturas y docentes.
+- ****Proyecto2-Gestión de hotel o de reservas**: 
+  Un sistema de gestión de reservas de habitaciones para un cliente.
   
 Cada proyecto está ubicado en su propia carpeta con su código fuente y un `README.md` con instrucciones detalladas sobre cómo ejecutar el proyecto.
 
